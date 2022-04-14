@@ -3,9 +3,10 @@ public class Main {
     public static void main(String[] args) {
      String minombre1;
 
-     minombre1 = "hola perrro";
+     minombre1 = "prueba commit";
 
 
         System.out.println(minombre1);
+        System.out.println("esto es una prueba de commit");
     }
 }
