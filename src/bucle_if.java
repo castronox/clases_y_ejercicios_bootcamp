@@ -6,6 +6,15 @@ public class bucle_if {
         Scanner sc = new Scanner( System.in);
         System.out.println ( "Introduce un numero Positivo o negativo:");
 
-        int nota = sc.nextInt ();
+        int numerolf = sc.nextInt ();
+
+        if (numerolf == 0 )
+        {
+            System.out.println("El numero que has puesto es Neutro.");
+        }else if(numerolf < 0){
+            System.out.println("El numero que has puesto es Negativo.");
+        }else{
+            System.out.println("El numero que has puesto es Positivo.");
+        }
 }
     }
