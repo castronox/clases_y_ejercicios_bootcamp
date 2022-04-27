@@ -3,5 +3,12 @@ public class bucle_while {
 
 
        int numerowhile = 1;
+
+       while ( numerowhile <=3){
+
+           System.out.println("El numero es : " + numerowhile);
+
+           numerowhile ++;
+       }
     }
 }
