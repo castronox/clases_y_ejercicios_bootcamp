@@ -16,7 +16,7 @@ public static void main(String[] args) {
     System.out.println("pulsando el 2 se activa la PRIMAVERA");
     System.out.println("pulsando el 3 se activa el INVIERNO");
     System.out.println("pulsando el 4 se activa el OTOÑO");
-    System.out.println("pulsando el 5 se activa el default");
+    System.out.println("pulsa cualquier otro numero y se activará el default.");
     
     int estacion = sc.nextInt ();
     
@@ -44,7 +44,7 @@ public static void main(String[] args) {
 
         default : 
             System.out.println("Este es el default, hasta pronto!");
-            
+
     }
 
 }
