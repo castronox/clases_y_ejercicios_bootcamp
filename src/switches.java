@@ -8,12 +8,15 @@ public static void main(String[] args) {
      int numero2 = 2;
      int numero3 = 3;
      int numero4 = 4;
+     int numero5 = 5;
+
     Scanner sc = new Scanner( System.in);
     System.out.println ("Introduce una ESTACIÓN del año:");
     System.out.println("pulsando el 1 se activa el VERANO");
     System.out.println("pulsando el 2 se activa la PRIMAVERA");
     System.out.println("pulsando el 3 se activa el INVIERNO");
     System.out.println("pulsando el 4 se activa el OTOÑO");
+    System.out.println("pulsando el 5 se activa el default");
     
     int estacion = sc.nextInt ();
     
@@ -41,6 +44,7 @@ public static void main(String[] args) {
 
         default : 
             System.out.println("Este es el default, hasta pronto!");
+            
     }
 
 }
