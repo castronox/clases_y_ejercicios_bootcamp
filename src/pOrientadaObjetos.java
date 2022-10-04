@@ -59,11 +59,11 @@ class Coche{
     }
 
 
-    public Coche(int puertas, int velocidadMax, int velocidadAct ){
+    public Coche(int numeroDePuertas, int velocidadMaxima, int velocidadActual ){
 
-        numeroDePuertas = puertas;
-        velocidadMaxima = velocidadMax;
-        velocidadActual = velocidadAct;
+        this.numeroDePuertas = numeroDePuertas;
+        this.velocidadMaxima = velocidadMaxima;
+        this.velocidadActual = velocidadActual;
         System.out.println("Estoy en el constructor CON PARAMETROS.");
     }
 
