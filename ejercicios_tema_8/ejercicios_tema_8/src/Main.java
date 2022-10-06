@@ -15,7 +15,7 @@ public class Main {
         persona.telefono = 556543534;
 
 
-        //imprimimos en pantalla concatenando la impresión en consola.
+        //imprimimos en pantalla concatenando la impresión en consola. --4
         System.out.println("Nombre del usuario: " + persona.nombre);
         System.out.println("Edad del usuario: " + persona.edad);
         System.out.println("Telefono del usuario: " + persona.telefono);
@@ -26,8 +26,25 @@ public class Main {
 
 //Creamos la clase. --1
 class Persona {
-    String nombre;
-    int edad;
-    int telefono;
+
+
+    //Construimos los setters. --5
+    private String nombre;
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+    }
+
+    private int edad;
+    public void setEdad(int edad){
+        this.edad = edad;
+    }
+
+
+    private int telefono;
+    public void setTelefono(int telefono){
+        this.telefono = telefono;
+    }
+
+
 
 }
