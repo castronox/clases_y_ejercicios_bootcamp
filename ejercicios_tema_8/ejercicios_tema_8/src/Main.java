@@ -6,10 +6,20 @@ public class Main {
         //Instanciamos la clase. --2
         Persona persona = new Persona();
 
-        //--7 invocamos los getters. --7
+        //invocamos los setters
+        persona.setNombre("Juan");
+        persona.setEdad(14);
+        persona.setTelefono(543654423);
+
+        //--7 invocamos los getters. --8
         String nombre = persona.getNombre();
         int telefono = persona.getTelefono();
         int edad = persona.getEdad();
+
+        //imprimimos en consola. --9
+        System.out.println("Nombre del usuario: " + nombre);
+        System.out.println("Edad del usuario: " + edad);
+        System.out.println("telefono del usuario: "+ telefono);
     }
 }
 //Creamos la clase. --1
