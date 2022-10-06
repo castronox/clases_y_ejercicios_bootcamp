@@ -3,23 +3,41 @@
 
 public class Main {
     public static void main(String[] args) {
-        //Instanciamos la clase. --2
-        Persona persona = new Persona();
-
-        //invocamos los setters
-        persona.setNombre("Juan");
-        persona.setEdad(14);
-        persona.setTelefono(543654423);
-
+        //Instanciamos la clase persona 1. --2
+        Persona persona1 = new Persona();
+        //invocamos los setters persona 1
+        persona1.setNombre("Juan");
+        persona1.setEdad(14);
+        persona1.setTelefono(543654423);
         //--7 invocamos los getters. --8
-        String nombre = persona.getNombre();
-        int telefono = persona.getTelefono();
-        int edad = persona.getEdad();
+        String nombre = persona1.getNombre();
+        int telefono = persona1.getTelefono();
+        int edad = persona1.getEdad();
+
+        //Instanciamos la clase persona 2. --3
+        Persona persona2 = new Persona();
+        //invocamos los setters persona 2
+        persona2.setNombre("sofia");
+        persona2.setEdad(19);
+        persona2.setTelefono(54657423);
+        //--7 invocamos los getters. --8
+        String nombre2 = persona2.getNombre();
+        int telefono2 = persona2.getTelefono();
+        int edad2 = persona2.getEdad();
+
+
+
 
         //imprimimos en consola. --9
+        System.out.println();
         System.out.println("Nombre del usuario: " + nombre);
         System.out.println("Edad del usuario: " + edad);
         System.out.println("telefono del usuario: "+ telefono);
+        System.out.println();
+        System.out.println("Nombre del usuario: " + nombre2);
+        System.out.println("Edad del usuario: " + edad2);
+        System.out.println("telefono del usuario: "+ telefono2);
+        System.out.println();
     }
 }
 //Creamos la clase. --1
