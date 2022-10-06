@@ -5,15 +5,11 @@ public class Main {
     public static void main(String[] args) {
         //Instanciamos la clase. --2
         Persona persona = new Persona();
-        //invocamos las propiedades asignadas a una variable. --3
-        persona.nombre = "Andres";
-        persona.edad = 14;
-        persona.telefono = 556543534;
 
-        //imprimimos en pantalla concatenando la impresión en consola. --4
-        System.out.println("Nombre del usuario: " + persona.nombre);
-        System.out.println("Edad del usuario: " + persona.edad);
-        System.out.println("Telefono del usuario: " + persona.telefono);
+        //--7 invocamos los getters. --7
+        String nombre = persona.getNombre();
+        int telefono = persona.getTelefono();
+        int edad = persona.getEdad();
     }
 }
 //Creamos la clase. --1
@@ -33,7 +29,7 @@ class Persona {
         this.telefono = telefono;
     }
 
-    //Construimos los getters
+    //Construimos los getters. --6
     public String getNombre(){
         return this.nombre;
     }
