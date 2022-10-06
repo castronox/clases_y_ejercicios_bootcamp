@@ -38,6 +38,7 @@ public class Main {
         System.out.println("Edad del usuario: " + edad2);
         System.out.println("telefono del usuario: "+ telefono2);
         System.out.println();
+        System.out.println("Final ejercicio.");
     }
 }
 //Creamos la clase. --1
