@@ -4,7 +4,6 @@ public class Main {
         Cliente cliente1 = new Cliente();
 
         //INVOCAMOS LOS SETTERS
-
         cliente1.setNombre("Juanardo.");
         cliente1.setEdad(32);
         cliente1.setTelefono(65482259);
@@ -36,6 +35,7 @@ public class Main {
         System.out.println();
         System.out.println("Telefono: " + trabajador1.getTelefono());
         System.out.println();
+
         //IMPRESION EN PANTALLA DE CLASE HIJA.
         System.out.println("Datos de la clase heredada:");
         System.out.println("Salario: " + trabajador1.getSalario());
@@ -43,7 +43,7 @@ public class Main {
 
     }
 }
-    //CREACIÓN DE CLASE.
+    //CREACIÓN DE CLASES.
     class Persona {
         int edad;
         int telefono;
