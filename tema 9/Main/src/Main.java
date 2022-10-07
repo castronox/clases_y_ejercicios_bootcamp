@@ -12,12 +12,13 @@ public class Main {
         //IMPRIMIMOS EN PANTALLA LOS GETTERS
         System.out.println();
         System.out.println("Nombre: " + cliente1.getNombre() + "\nEdad: " + cliente1.getEdad());
-        System.out.println("Telefono: " + cliente1.getTelefono());
-        //IMPRESION EN PANTALLA DE CLASE HIJA.
         System.out.println();
+        System.out.println("Telefono: " + cliente1.getTelefono());
+
+        //IMPRESION EN PANTALLA DE CLASE HIJA.
         System.out.println("Datos dela clase heredada:");
         System.out.println("Credito: " + cliente1.getCredito());
-        System.out.println();
+
 
 
         //CLASE TRABAJADOR
@@ -34,7 +35,7 @@ public class Main {
         System.out.println("Nombre: " + trabajador1.getNombre() + "\nEdad: " + trabajador1.getEdad());
         System.out.println();
         System.out.println("Telefono: " + trabajador1.getTelefono());
-        System.out.println();
+
 
         //IMPRESION EN PANTALLA DE CLASE HIJA.
         System.out.println("Datos de la clase heredada:");
