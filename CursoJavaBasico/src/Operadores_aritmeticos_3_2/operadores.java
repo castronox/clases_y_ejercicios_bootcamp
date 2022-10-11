@@ -7,9 +7,9 @@ public class operadores {
         //aritméticos:
         int numero1 = 10;
         int numero2 = 20;
-        int resultado = numero1 + numero2;
+        int resultadosuma1 = numero1 + numero2;
 
-        System.out.println(resultado);
+        System.out.println(resultadosuma1);
     }
 
 
