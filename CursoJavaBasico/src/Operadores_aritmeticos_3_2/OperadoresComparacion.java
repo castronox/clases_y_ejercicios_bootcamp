@@ -1,8 +1,6 @@
 package Operadores_aritmeticos_3_2;
 
-import org.w3c.dom.ls.LSOutput;
-
-public class OperadoresCopmaracion {
+public class OperadoresComparacion {
 
     /*   Compaación
         < Menor que
