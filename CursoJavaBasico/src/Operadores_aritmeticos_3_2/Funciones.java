@@ -31,6 +31,7 @@ public class Funciones {
 
     //Opcion 2 Aplicar gets.
     static String getMenu() {
-        return "Bienvenidos al e-commerce de cristina ferre atelier --> METODO 2 <-- : \n Prendas \n Chaquetas \n Bolsos";
+        return "Bienvenidos al e-commerce de cristina ferre atelier --> METODO 2 <-- : " +
+                "\n Prendas \n Chaquetas \n Bolsos";
     }
 }
