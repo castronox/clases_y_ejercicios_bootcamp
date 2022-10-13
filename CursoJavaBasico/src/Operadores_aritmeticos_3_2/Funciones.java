@@ -10,6 +10,7 @@ public class Funciones {
 
 
         //Opcion 2 --> Fucnción sin parámetros y con tipo de retorno.
+        String menu = getMenu();
 
     static void muestraMenu(){
 
@@ -20,11 +21,11 @@ public class Funciones {
         System.out.println("2-chaquetas");
         System.out.println("3-bolsos");
     }
-       //Opcion 2 Aplicar gets.
-    static String getMuestraMenu(){
-        return "Bienvenidos a la tienda de cristina xD! \n 1- Ver Prendas \n 2- Chaquetas \n 3-Bolsos";
-
-    }
 
 
 }
+    //Opcion 2 Aplicar gets.
+    static String getMenu() {
+        return "Bienvenidos al e-commerce de cristina ferre atelier: \n Prendas \n Chaquetas \n Bolsos";
+    }
+    }
