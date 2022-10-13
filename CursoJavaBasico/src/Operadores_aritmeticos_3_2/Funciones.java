@@ -6,13 +6,19 @@ public class Funciones {
 
         // opcion 1
         muestraMenu();
+
         //Opcion 2 --> Fucnción sin parámetros y con tipo de retorno.
         String menu = getMenu();
         System.out.println(menu);
+
+        //Opcion 3 --> Fucnción con parámetros y con tipo de retorno.
+        System.out.println("\nEl resultado de la suma es: " + sumar(5,7));
+
+
     }
 
 
-    //Opcion 2 --> Fucnción sin parámetros y con tipo de retorno.
+
 
 
 
@@ -34,4 +40,17 @@ public class Funciones {
         return "Bienvenidos al e-commerce de cristina ferre atelier --> METODO 2 <-- : " +
                 "\n Prendas \n Chaquetas \n Bolsos";
     }
+
+    // Opción 3 Función con paso por Parámetros.
+    static int sumar (int numero1, int numero2){
+
+        int num1 = numero1;
+        int num2 = numero2;
+
+        return numero1+numero2;
+
+
+    }
+
+
 }
