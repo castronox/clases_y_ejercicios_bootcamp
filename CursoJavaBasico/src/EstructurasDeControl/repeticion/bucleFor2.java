@@ -6,7 +6,7 @@ public class bucleFor2 {
         String[] nombres = {"Pepe","Armando","Maradona","Diego"};
         for(int i = 0 ; i < nombres.length; i++){
 
-            System.out.println("Nombre "+ i +" "+ nombres[i]);
+            System.out.print(" Nombre "+ i +": "+ nombres[i]);
         }
     }
 }
