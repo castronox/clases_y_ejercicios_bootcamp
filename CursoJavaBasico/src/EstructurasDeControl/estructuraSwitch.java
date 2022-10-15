@@ -38,7 +38,10 @@ public class estructuraSwitch {
             case "Domingo":
                 System.out.println("Estamos a Domingo");
                 break;
+            default:
+                System.out.println("No es un día Válido");
         }
+
 
 
     }
