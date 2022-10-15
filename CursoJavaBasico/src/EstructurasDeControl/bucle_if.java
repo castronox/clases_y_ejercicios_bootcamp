@@ -1,4 +1,5 @@
 package EstructurasDeControl;
+
 import java.util.Scanner;
 
 public class bucle_if {
