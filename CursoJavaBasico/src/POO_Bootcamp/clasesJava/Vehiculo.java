@@ -8,17 +8,18 @@ public class Vehiculo {
     String modelo;
     Double cubicaje;
     int year;
+    int velocidad;
     boolean sport;
     boolean traccion4;
 
 
     //Constructores.
 
-    public vehiculo(){
+    public Vehiculo(){
     }
 
     //Sobrecarga
-    public Vehiculo(String fabricante,String modelo,Double cubicaje,int year, boolean sport, boolean traccion4){
+    public Vehiculo(String fabricante,String modelo,Double cubicaje,int year, boolean sport, boolean traccion4, int velocidad){
 
         this.fabricante=fabricante;
         this.modelo=modelo;
@@ -26,10 +27,17 @@ public class Vehiculo {
         this.year=year;
         this.sport=sport;
         this.traccion4=traccion4;
+        this.velocidad=velocidad;
 
 
-     // Métodos.
+     // Métodos , ( Comportamiento ).
 
 
     }
+
+    public void velocidad(int kmh) {
+            this.velocidad += kmh;
+        }
 }
+
+
