@@ -1,6 +1,6 @@
 package POO_Bootcamp.clasesJava;
 
-public class clasesJava {
+public class Vehiculo {
 
     //Atributos.
 
