@@ -4,9 +4,10 @@ public class Main {
     public static void main(String[] args) {
 
         Vehiculo coche = new Vehiculo();
+        Motor motorGTI = new Motor("GTI", 190,459.0,6);
 
-
-        Vehiculo vehiculo2 = new Vehiculo("Ford","Mondeo",1.6,2002,true,false,0);
+        Vehiculo vehiculo2 = new Vehiculo
+                ("Ford","Mondeo",1.6,2002,0,false,true, motorGTI);
 
         System.out.println ("Fabricante de coche: " + vehiculo2.fabricante +
                             "\n" + "Modelo: " + vehiculo2.modelo +
