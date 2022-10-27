@@ -1,16 +1,16 @@
-package POO_Bootcamp.clasesJava;
+package POO_Bootcamp.clases;
 
 public class Vehiculo {
 
     //Atributos.
 
-    String fabricante;
-    String modelo;
-    Double cubicaje;
-    int year;
-    int velocidad;
-    boolean sport;
-    boolean traccion4;
+   protected String fabricante;
+    protected String modelo;
+    protected Double cubicaje;
+    protected int year;
+    protected int velocidad;
+    protected boolean sport;
+    protected boolean traccion4;
 
     Motor motor;
 

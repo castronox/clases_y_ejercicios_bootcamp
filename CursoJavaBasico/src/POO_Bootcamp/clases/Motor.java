@@ -1,4 +1,4 @@
-package POO_Bootcamp.clasesJava;
+package POO_Bootcamp.clases;
 
 public class Motor {
 
