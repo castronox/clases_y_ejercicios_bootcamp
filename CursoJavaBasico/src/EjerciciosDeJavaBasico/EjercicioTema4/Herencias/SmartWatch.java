@@ -4,9 +4,9 @@ import EjerciciosDeJavaBasico.EjercicioTema4.ClasePadre.SmartDevice;
 
 public class SmartWatch extends SmartDevice {
 
-    public static boolean pulsometro;
-    public static boolean cuentapasos;
-    public static boolean notificaciones;
+    public boolean pulsometro;
+    public boolean cuentapasos;
+    public boolean notificaciones;
 
     public SmartWatch(){}
 
@@ -16,5 +16,20 @@ public class SmartWatch extends SmartDevice {
         this.pulsometro = pulsometro;
         this.cuentapasos = cuentapasos;
         this.notificaciones = notificaciones;
+    }
+    @Override
+    public String toString(){
+
+        return " Marca: " + fabricante +
+                ". Modelo: " + modelo +
+                ". Almacenamiento: " + almacenamiento +
+                ". Ram: " + ram +
+                ". Gama: " + gama_alta_baja +
+                ". Pantalla: " + pantalla +
+                ". Conectividad: " + conectividad +
+                ". Pulsometro: " + pulsometro +
+                ". Cuentapasos: " + cuentapasos +
+                ". Notificaciones: " + notificaciones;
+
     }
 }

@@ -2,8 +2,8 @@ package EjerciciosDeJavaBasico.EjercicioTema4.ClasePadre;
 
 public class SmartDevice {
 
-    protected  static  String fabricante;
-    public  static String modelo;
+    public  String fabricante;
+    public  String modelo;
     public  static Double almacenamiento;
     public  static int ram;
     public  static boolean gama_alta_baja;  // true gama alta.
@@ -25,5 +25,7 @@ public class SmartDevice {
         this.gama_alta_baja = gama_alta_baja;
         this.pantalla = pantalla;
         this.conectividad = conectividad;
+
     }
+
 }

@@ -24,4 +24,17 @@ public class SmartPhone extends SmartDevice {
         this.camara_fotos = camara_fotos;
         this.apps = apps;
     }
+
+    @Override
+    public String toString(){
+
+        return " Marca: " + fabricante +
+                ". Modelo: " + modelo +
+                ". Almacenamiento: " + almacenamiento +
+                ". Ram: " + ram +
+                ". Gama: " + gama_alta_baja +
+                ". Pantalla: " + pantalla +
+                ". Conectividad: " + conectividad;
+    }
+
 }
