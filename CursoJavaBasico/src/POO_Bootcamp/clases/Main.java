@@ -26,7 +26,7 @@ public class Main {
         //herencia.
         Motocicleta kawasakiNinja = new Motocicleta();
         kawasakiNinja.fabricante="Kawasaki";
-        System.out.println("Fin de programa");
+        System.out.println("Fin de programa " + kawasakiNinja.fabricante);
 
         //Polimorfismo.
 
