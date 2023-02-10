@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CursoJavaBasico:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CursoJavaBasico_jar</output-path>
+    <root id="archive" name="CursoJavaBasico.jar">
+      <element id="module-output" name="CursoJavaBasico" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
