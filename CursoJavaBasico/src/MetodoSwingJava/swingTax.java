@@ -37,7 +37,7 @@ public class swingTax {
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("SwingTax");
-
+        frame.setSize(450,300);
         frame.setContentPane(new swingTax().taxPanel);
         frame.setVisible(true);
 
